@@ -16,7 +16,7 @@ datasource db {
 model Meals {
   id           String @id @default(nanoid())
   title        String
-  slug         String @unique
+  slug         String 
   summary      String
   image        String
   instructions String
