@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Meals } from '@/prisma/app/generated/prisma';
+import { Meals } from '@prisma/client';
 
 import classes from './meal-item.module.css';
 

@@ -1,4 +1,4 @@
-import { Meals } from "@/prisma/app/generated/prisma";
+import { Meals } from "@prisma/client";
 import { MealItem } from "./meal-item";
 import classes from './meals-grid.module.css'
 
